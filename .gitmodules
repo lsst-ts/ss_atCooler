@@ -1,0 +1,3 @@
+[submodule "common_serial_tcpextended"]
+	path = common_serial_tcpextended
+	url = https://github.com/lsst-ts/common_serial_tcpextended.git
