@@ -12,7 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Communicators" Type="Folder">
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../common_serial_tcpextended/Communicator/Communicator.lvclass"/>
-			<Item Name="SerialClient.lvclass" Type="LVClass" URL="../common_serial_tcpextended/CommunicatorClients/Serial/SerialClient.lvclass"/>
+			<Item Name="SerialCommunication.lvclass" Type="LVClass" URL="../common_serial_tcpextended/CommunicatorClients/Serial/SerialCommunication.lvclass"/>
 		</Item>
 		<Item Name="ss_atCoolerTypedefs" Type="Folder">
 			<Item Name="AlarmStatusFlag.ctl" Type="VI" URL="../typedefs/AlarmStatusFlag.ctl"/>
