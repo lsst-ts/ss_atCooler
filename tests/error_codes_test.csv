@@ -1,0 +1,130 @@
+A0,0,No Alarm,0
+A0,1,Ambient Temp. Sensor Alarm,1
+A0,2,High Control Temperature Alarm,2
+A0,4,PT7 High Temperature Alarm,3
+A0,8,Low Control Temperature Alarm,4
+A1,0,No Alarm,5
+A1,1,Supply Temp Sensor Alarm (Latched),6
+A1,2,External RTD Sensor Alarm,7
+A1,4,Return Temperature Sensor Alarm,8
+A1,8,External Thermistor Sensor Alarm,9
+A2,0,No Alarm,10
+A2,1,Low Coolant Level Alarm (Latched),11
+A2,2,Low Process Flow Alarm,12
+A2,4,Low Plant Flow Alarm,13
+A2,8,Current Sensor 1 Alarm,14
+A3,0,No Alarm,15
+A3,1,PT7 Low Temperature Alarm,16
+A3,2,High Ambient Temperature Alarm,17
+A3,4,Low Ambient Temperature Alarm,18
+A3,8,External Connector Not Installed,19
+A4,0,No Alarm,20
+A4,1,Default High Temperature Alarm,21
+A4,2,Default Low Temperature Alarm,22
+A4,4,No Process Flow Alarm,23
+A4,8,Fan Failure Alarm,24
+A5,0,No Alarm,25
+A5,1,Current Sensor 2 Alarm,26
+A5,2,Internal 2.5V Reference Alarm,27
+A5,4,Internal 5V Reference Alarm,28
+A5,8,System Error Alarm (Global),29
+B0,0,No Alarm,30
+B0,1,Reserved (Not Used),31
+B0,2,Reserved (Not Used),32
+B0,4,Reserved (Not Used),33
+B0,8,Reserved (Not Used),34
+B1,0,No Alarm,35
+B1,1,ADC System Error Alarm,36
+B1,2,I2C System Error Alarm,37
+B1,4,EEPROM System Error Alarm,38
+B1,8,Watchdog System Error Alarm,39
+B2,0,No Alarm,40
+B2,1,Reserved (Not Used),41
+B2,2,Reserved (Not Used),42
+B2,4,Reserved (Not Used),43
+B2,8,Reserved (Not Used),44
+B3,0,No Alarm,45
+B3,1,ADC Reset Error Alarm,46
+B3,2,ADC Calibration Error Alarm,47
+B3,4,ADC Conversion Error Alarm,48
+B3,8,Reserved (Not Used),49
+B4,0,No Alarm,50
+B4,1,IO Expender Acknowledge Error Alarm,51
+B4,2,PSA IO Expender Acknowoledge Alarm,52
+B4,4,RTC Acknowledge Error Alarm,53
+B4,8,Reserved (Not Used),54
+B5,0,No Alarm,55
+B5,1,I2C SCL Low Error Alarm,56
+B5,2,I2C SDA Low Error Alarm,57
+B5,4,EEPROM 1 (U201) Acknowledge Alarm,58
+B5,8,EEPROM 2 (U200) Acknowledge Alarm,59
+B6,0,No Alarm,60
+B6,1,Reserved (Not Used),61
+B6,2,Reserved (Not Used),62
+B6,4,Reserved (Not Used),63
+B6,8,Reserved (Not Used),64
+B7,0,No Alarm,65
+B7,1,EEPROM 1 (U201) Read Error Alarm,66
+B7,2,EEPROM 1 (U201) Write Error Alarm,67
+B7,4,EEPROM 2 (U200) Read Error Alarm,68
+B7,8,EEPROM 2 (U200) Write Error Alarm,69
+C0,0,No Alarm,70
+C0,1,External RTD Sensor Open Alarm,71
+C0,2,External RTD Sensor Short Alarm,72
+C0,4,Return Temp Sensor Open Alarm,73
+C0,8,Return Temp Sensor Open Alarm,74
+C1,0,No Alarm,75
+C1,1,Global Supply Temp Sensor Alarm,76
+C1,2,Supply Temp Sensor Locked Alarm,77
+C1,4,Supply Temp Sensor Open Alarm,78
+C1,8,Supply Temp Sensor Short Alarm,79
+C2,0,No Alarm,80
+C2,1,Internal 2.5V Reference High Alarm,81
+C2,2,Internal 2.5V Reference Low Alarm,82
+C2,4,Internal 5V Reference High Alarm,83
+C2,8,Internal 5V Reference Low Alarm,84
+C3,0,No Alarm,85
+C3,1,External Therm. Sensor Open Alarm,86
+C3,2,External Therm. Sensor Short Alarm,87
+C3,4,Ambient Temp Sensor Open Alarm,88
+C3,8,Ambient Temp Sensor Short Alarm,89
+C4,0,No Alarm,90
+C4,1,Reserved (Not Used),91
+C4,2,Reserved (Not Used),92
+C4,4,Reserved (Not Used),93
+C4,8,Reserved (Not Used),94
+C5,0,No Alarm,95
+C5,1,Current Sensor 1 Open Alarm,96
+C5,2,Current Sensor 1 Short Alarm,97
+C5,4,Current Sensor 2 Open Alarm,98
+C5,8,Current Sensor 2 Short Alarm,99
+C6,0,No Alarm,100
+C6,1,Rear Left Fan Noise Alarm,101
+C6,2,Rear Right Fan Noise Alarm,102
+C6,4,Front Left Fan Noise Alarm,103
+C6,8,Front Right Fan Noise Alarm,104
+C7,0,No Alarm,105
+C7,1,Rear Left Fan Open Alarm,106
+C7,2,Rear Right Fan Open Alarm,107
+C7,4,Front Left Fan Open Alarm,108
+C7,8,Front Right Fan Open Alarm,109
+W0,0,No Alarm,110
+W0,1,Low Process Flow Warning,111
+W0,2,Process Fluid Level Warning,112
+W0,4,Switch to Supply Temp as Control Temp Warning,113
+W0,8,Reserved (Not Used),114
+W1,0,No Alarm,115
+W1,1,High Control Temp Warning,116
+W1,2,Low Control Temp Warning,117
+W1,4,High Ambient Temp Warning,118
+W1,8,Low Ambient Temp Warning,119
+W2,0,No Alarm,120
+W2,1,Reserved (Not Used),121
+W2,2,Reserved (Not Used),122
+W2,4,Reserved (Not Used),123
+W2,8,Reserved (Not Used),124
+W3,0,No Alarm,125
+W3,1,Reserved (Not Used),126
+W3,2,Reserved (Not Used),127
+W3,4,Reserved (Not Used),128
+W3,8,Reserved (Not Used),129
