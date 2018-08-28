@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Communicators" Type="Folder">
+			<Item Name="Communicator.lvclass" Type="LVClass" URL="../common_serial_tcpextended/Communicator/Communicator.lvclass"/>
+			<Item Name="SerialClient.lvclass" Type="LVClass" URL="../common_serial_tcpextended/CommunicatorClients/Serial/SerialClient.lvclass"/>
+		</Item>
 		<Item Name="ss_atCoolerTypedefs" Type="Folder">
 			<Item Name="AlarmStatusFlag.ctl" Type="VI" URL="../typedefs/AlarmStatusFlag.ctl"/>
 			<Item Name="ChillerStatus.ctl" Type="VI" URL="../typedefs/ChillerStatus.ctl"/>
@@ -31,6 +35,9 @@
 		<Item Name="Test" Type="Folder">
 			<Item Name="testCommandInput.vi" Type="VI" URL="../SerialCommand/testCommandInput.vi"/>
 			<Item Name="testStringToChecksum.vi" Type="VI" URL="../tests/testStringToChecksum.vi"/>
+		</Item>
+		<Item Name="View" Type="Folder">
+			<Item Name="view.vi" Type="VI" URL="../View/view.vi"/>
 		</Item>
 		<Item Name="CoolerSerialCommand.lvclass" Type="LVClass" URL="../SerialCommand/CoolerSerialCommand.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
