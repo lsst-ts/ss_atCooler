@@ -13,6 +13,7 @@
 		<Item Name="Communicators" Type="Folder">
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../common_serial_tcpextended/Communicator/Communicator.lvclass"/>
 			<Item Name="SerialCommunication.lvclass" Type="LVClass" URL="../common_serial_tcpextended/CommunicatorClients/Serial/SerialCommunication.lvclass"/>
+			<Item Name="TCPCommunication.lvclass" Type="LVClass" URL="../common_serial_tcpextended/CommunicatorClients/TCP/TCPCommunication.lvclass"/>
 		</Item>
 		<Item Name="ss_atCoolerTypedefs" Type="Folder">
 			<Item Name="AlarmStatusFlag.ctl" Type="VI" URL="../typedefs/AlarmStatusFlag.ctl"/>
@@ -28,8 +29,10 @@
 			<Item Name="errorType.ctl" Type="VI" URL="../typedefs/errorType.ctl"/>
 			<Item Name="ExternalSensorStatus.ctl" Type="VI" URL="../typedefs/ExternalSensorStatus.ctl"/>
 			<Item Name="PumpStatusFlag.ctl" Type="VI" URL="../typedefs/PumpStatusFlag.ctl"/>
+			<Item Name="readTempreature.ctl" Type="VI" URL="../typedefs/readTempreature.ctl"/>
 			<Item Name="response.ctl" Type="VI" URL="../typedefs/response.ctl"/>
 			<Item Name="typeOfCommand.ctl" Type="VI" URL="../typedefs/typeOfCommand.ctl"/>
+			<Item Name="typeOfError.ctl" Type="VI" URL="../typedefs/typeOfError.ctl"/>
 			<Item Name="WarningStatusFlag.ctl" Type="VI" URL="../typedefs/WarningStatusFlag.ctl"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
@@ -39,7 +42,11 @@
 		<Item Name="View" Type="Folder">
 			<Item Name="view.vi" Type="VI" URL="../View/view.vi"/>
 		</Item>
+		<Item Name="CoolerControler.lvclass" Type="LVClass" URL="../CoolerController/CoolerControler.lvclass"/>
 		<Item Name="CoolerSerialCommand.lvclass" Type="LVClass" URL="../SerialCommand/CoolerSerialCommand.lvclass"/>
+		<Item Name="SerialProtocols.lvlib" Type="Library" URL="../common_serial_tcpextended/common_serialprotocols/SerialProtocols.lvlib"/>
+		<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="../common_serial_tcpextended/common_simulators_simulateserialdata/SimulateSerialData.lvclass"/>
+		<Item Name="tcp.lvlib" Type="Library" URL="../common_serial_tcpextended/common_ascii_tcp/tcp.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi"/>
@@ -121,8 +128,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="SerialProtocols.lvlib" Type="Library" URL="../common_serial_tcpextended/common_serialprotocols/SerialProtocols.lvlib"/>
-			<Item Name="SimulateSerialData.lvclass" Type="LVClass" URL="../common_serial_tcpextended/common_simulators_simulateserialdata/SimulateSerialData.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
