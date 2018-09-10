@@ -27,9 +27,11 @@
 			<Item Name="ChillerStatus.ctl" Type="VI" URL="../typedefs/ChillerStatus.ctl"/>
 			<Item Name="ControlSensor.ctl" Type="VI" URL="../typedefs/ControlSensor.ctl"/>
 			<Item Name="ControlStatusMode.ctl" Type="VI" URL="../typedefs/ControlStatusMode.ctl"/>
+			<Item Name="ControlVariablesStatus.ctl" Type="VI" URL="../typedefs/ControlVariablesStatus.ctl"/>
 			<Item Name="CoolerCommands.ctl" Type="VI" URL="../typedefs/CoolerCommands.ctl"/>
 			<Item Name="CoolerId.ctl" Type="VI" URL="../typedefs/CoolerId.ctl"/>
 			<Item Name="CoolerQuery.ctl" Type="VI" URL="../typedefs/CoolerQuery.ctl"/>
+			<Item Name="DeviceStatus.ctl" Type="VI" URL="../typedefs/DeviceStatus.ctl"/>
 			<Item Name="ExternalSensorStatus.ctl" Type="VI" URL="../typedefs/ExternalSensorStatus.ctl"/>
 			<Item Name="PumpStatusFlag.ctl" Type="VI" URL="../typedefs/PumpStatusFlag.ctl"/>
 			<Item Name="WarningStatusFlag.ctl" Type="VI" URL="../typedefs/WarningStatusFlag.ctl"/>
@@ -39,6 +41,7 @@
 			<Item Name="errorType.ctl" Type="VI" URL="../typedefs/errorType.ctl"/>
 			<Item Name="readTempreature.ctl" Type="VI" URL="../typedefs/readTempreature.ctl"/>
 			<Item Name="response.ctl" Type="VI" URL="../typedefs/response.ctl"/>
+			<Item Name="temperatureSet.ctl" Type="VI" URL="../typedefs/temperatureSet.ctl"/>
 			<Item Name="typeOfCommand.ctl" Type="VI" URL="../typedefs/typeOfCommand.ctl"/>
 			<Item Name="typeOfError.ctl" Type="VI" URL="../typedefs/typeOfError.ctl"/>
 			<Item Name="typeOfWarning.ctl" Type="VI" URL="../CoolerController/typeOfWarning.ctl"/>
@@ -54,6 +57,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
